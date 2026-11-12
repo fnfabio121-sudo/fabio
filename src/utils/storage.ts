@@ -1,11 +1,11 @@
 import { StudentProgress } from '../types/course';
 
-const STORAGE_KEY = 'renda_rotina_student_progress_v1';
+const STORAGE_KEY = 'renda_rotina_student_progress_v2';
 
 export const DEFAULT_STUDENT_PROGRESS: StudentProgress = {
-  studentName: 'Carla Mendes',
+  studentName: 'Aluna VIP',
   studentBio: 'Mãe, dona de casa e futura criadora de conteúdo de rotina.',
-  avatarSeed: 'carla',
+  avatarSeed: 'aluna',
   completedLessonIds: ['m1-a1'], // First lesson started/completed for welcoming feedback
   savedNotes: {
     'm1-a1': 'Minhas tarefas magnéticas: 1) Passar o café matinal na janela; 2) Limpar a bancada da pia com esponja espumosa; 3) Dobrar as mantas do sofá da sala; 4) Borrifar álcool perfumado no espelho do banheiro; 5) Organizar a fruteira com maçãs e laranjas.'

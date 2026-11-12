@@ -225,7 +225,7 @@ export const COURSE_MODULES: Module[] = [
         realWorldExamples: [
           {
             title: 'Exemplo: O Método dos 3 Momentos do Dia',
-            scenario: 'Mariana grava: 1 cena passando o café às 7h30 (8 segundos); 1 cena esticando a colcha da cama às 8h15 (8 segundos); 1 cena borrifando lustra-móveis na mesa às 9h00 (8 segundos).',
+            scenario: 'Uma criadora grava: 1 cena passando o café às 7h30 (8 segundos); 1 cena esticando a colcha da cama às 8h15 (8 segundos); 1 cena borrifando lustra-móveis na mesa às 9h00 (8 segundos).',
             keyTakeaway: 'Em menos de 3 minutos de gravação total acumulada durante a manhã, ela criou o vídeo "Minha rotina matinal para manter a casa em paz", que teve 95 mil views.'
           },
           {
@@ -487,7 +487,7 @@ export const COURSE_MODULES: Module[] = [
           {
             step: 1,
             title: 'Escolha um nome simples, sem números aleatórios',
-            instruction: 'Prefira combinações fáceis de memorizar. Evite: @maria_silva19827364. Prefira: @rotinadamaria, @cantinho.acolhedor, @paznolar.dicas, @casaorganizada.diario.',
+            instruction: 'Prefira combinações fáceis de memorizar. Evite: @casa_perfil19827364. Prefira: @rotina.em.ordem, @cantinho.acolhedor, @paznolar.dicas, @casaorganizada.diario.',
             tip: 'Quanto mais limpo o nome, mais profissional parecerá seu projeto.'
           },
           {

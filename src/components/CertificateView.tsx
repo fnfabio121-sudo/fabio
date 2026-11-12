@@ -174,7 +174,7 @@ export const CertificateView: React.FC<CertificateViewProps> = ({
               Certificamos solenemente que
             </p>
             <h3 className="text-3xl sm:text-4xl md:text-5xl font-extrabold gold-text-gradient tracking-wide py-1">
-              {nameInput || 'Carla Mendes'}
+              {nameInput.trim() || 'Aluna da Academia Digital'}
             </h3>
             <p className="text-xs sm:text-sm text-zinc-300 max-w-2xl mx-auto leading-relaxed pt-2">
               concluiu com êxito e mérito a formação intensiva de 40 horas do curso{' '}
