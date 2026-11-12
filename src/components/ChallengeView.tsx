@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { CHALLENGE_30_DAYS } from '../data/courseData';
+import challengeBannerImg from '../assets/images/challenge_30_days_banner_1794277383477.jpg';
 import {
   Calendar,
   CheckCircle2,
@@ -91,7 +92,7 @@ export const ChallengeView: React.FC<ChallengeViewProps> = ({
           <div className="md:col-span-5">
             <div className="overflow-hidden rounded-xl border border-purple-700/40 shadow-lg">
               <img
-                src="/src/assets/images/challenge_30_days_banner_1794277383477.jpg"
+                src={challengeBannerImg}
                 alt="Banner do Desafio 30 Dias"
                 referrerPolicy="no-referrer"
                 className="w-full h-44 sm:h-52 object-cover"

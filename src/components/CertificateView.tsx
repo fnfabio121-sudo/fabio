@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import certificateBadgeImg from '../assets/images/course_certificate_badge_1794277383565.jpg';
 import {
   Award,
   Printer,
@@ -145,7 +146,7 @@ export const CertificateView: React.FC<CertificateViewProps> = ({
           <div className="flex justify-center">
             <div className="h-20 w-20 sm:h-24 sm:w-24 rounded-full overflow-hidden border-2 border-[#D4AF37] shadow-lg">
               <img
-                src="/src/assets/images/course_certificate_badge_1794277383565.jpg"
+                src={certificateBadgeImg}
                 alt="Selo Dourado Oficial"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"

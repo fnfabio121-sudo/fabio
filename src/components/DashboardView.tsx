@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Module, Lesson } from '../types/course';
 import { DAILY_TIPS } from '../data/courseData';
+import heroWorkspaceImg from '../assets/images/hero_workspace_aesthetic_1794277383298.jpg';
 import {
   Sparkles,
   Play,
@@ -112,7 +113,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
           <div className="lg:col-span-5">
             <div className="relative group overflow-hidden rounded-xl border border-purple-700/40 shadow-2xl">
               <img
-                src="/src/assets/images/hero_workspace_aesthetic_1794277383298.jpg"
+                src={heroWorkspaceImg}
                 alt="Ambiente estético de gravação de rotina doméstica"
                 referrerPolicy="no-referrer"
                 className="w-full h-56 sm:h-64 object-cover transition-transform duration-500 group-hover:scale-105"
