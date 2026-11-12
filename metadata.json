@@ -1,0 +1,6 @@
+{
+  "name": "Renda com a Rotina — Academia Digital",
+  "description": "Plataforma de ensino digital premium para aprender a monetizar tarefas domésticas e rotina nas redes sociais sem mostrar o rosto.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

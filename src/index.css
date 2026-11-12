@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-heading: 'Outfit', system-ui, sans-serif;
+    --font-luxury: 'Cinzel', Georgia, serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #120726;
+    color: #F4F4F5;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #160B2E;
+}
+::-webkit-scrollbar-thumb {
+  background: #3B186B;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6D28D9;
+}
+
+/* Custom gold gradient and glow classes */
+.gold-text-gradient {
+  background: linear-gradient(135deg, #FFF0B8 0%, #D4AF37 50%, #AA8010 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.purple-card-gradient {
+  background: linear-gradient(180deg, rgba(32, 17, 66, 0.75) 0%, rgba(22, 11, 46, 0.95) 100%);
+  border: 1px solid rgba(139, 92, 246, 0.18);
+}
+
+.purple-card-gradient:hover {
+  border-color: rgba(212, 175, 55, 0.35);
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 20px -5px rgba(212, 175, 55, 0.25);
+}
+
+.purple-glow {
+  box-shadow: 0 0 35px -10px rgba(109, 40, 217, 0.4);
+}
+
+/* Print layout for digital certificate */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
